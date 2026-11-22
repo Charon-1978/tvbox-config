@@ -118,24 +118,24 @@
     }
   ],
 
-      "lives": [
+        "lives": [
     {
-      "name": "直播·精简",
-      "url": "https://raw.githubusercontent.com/Charon-1978/tvbox-config/main/live-lite.m3u",
+      "name": "直播·净化版",
+      "url": "https://raw.githubusercontent.com/Charon-1978/tvbox-config/main/live-clean.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
       "timeZone": "Asia/Shanghai",
       "boot": true
     },
     {
-      "name": "直播·完整",
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "name": "直播·精简",
+      "url": "https://raw.githubusercontent.com/Charon-1978/tvbox-config/main/live-lite.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
       "timeZone": "Asia/Shanghai",
       "boot": false
     },
     {
-      "name": "直播·备用",
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+      "name": "直播·完整",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
       "timeZone": "Asia/Shanghai",
       "boot": false
