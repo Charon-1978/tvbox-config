@@ -1,8 +1,8 @@
 {
   "sites": [
     {
-      "key": "full_lovedan",
-      "name": "爱旦影视(全)",
+      "key": "lovedan",
+      "name": "爱旦影视·全",
       "type": 1,
       "api": "http://lovedan.net/api.php/provide/vod",
       "searchable": 1,
@@ -10,8 +10,8 @@
       "changeable": 1
     },
     {
-      "key": "full_huya",
-      "name": "虎牙资源(全)",
+      "key": "huya",
+      "name": "虎牙资源·全",
       "type": 1,
       "api": "https://www.huyaapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -19,8 +19,8 @@
       "changeable": 1
     },
     {
-      "key": "full_hongniu",
-      "name": "红牛资源(全)",
+      "key": "hongniu",
+      "name": "红牛资源·全",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "searchable": 1,
@@ -28,8 +28,8 @@
       "changeable": 1
     },
     {
-      "key": "full_feifan",
-      "name": "非凡影视(全)",
+      "key": "feifan",
+      "name": "非凡影视·全",
       "type": 1,
       "api": "http://ffzy5.tv/api.php/provide/vod",
       "searchable": 1,
@@ -37,8 +37,8 @@
       "changeable": 1
     },
     {
-      "key": "full_zy360",
-      "name": "360资源(全)",
+      "key": "zy360",
+      "name": "360资源·全",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
@@ -46,8 +46,8 @@
       "changeable": 1
     },
     {
-      "key": "full_hhzy",
-      "name": "豪华资源(全)",
+      "key": "hhzy",
+      "name": "豪华资源·全",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -55,26 +55,25 @@
       "changeable": 1
     }
   ],
-
-      "lives": [
+  "lives": [
     {
-      "name": "直播·精简",
-      "url": "https://raw.githubusercontent.com/Charon-1978/tvbox-config/main/live-lite.m3u",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
-      "timeZone": "Asia/Shanghai",
-      "boot": true
-    },
-    {
-      "name": "直播·完整",
-      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "name": "直播·广东广电",
+      "url": "https://cdn.jsdelivr.net/gh/Charon-1978/tvbox-config@v2026.11.22.4/live-gd.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
       "timeZone": "Asia/Shanghai",
       "boot": false
     },
     {
-      "name": "直播·备用",
-      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+      "name": "直播·精简",
+      "url": "https://cdn.jsdelivr.net/gh/Charon-1978/tvbox-config@v2026.11.22.4/live-lite.m3u",
+      "ua": "Mozilla/5.0",
+      "timeZone": "Asia/Shanghai",
+      "boot": false
+    },
+    {
+      "name": "直播·完整(第三方)",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "ua": "Mozilla/5.0",
       "timeZone": "Asia/Shanghai",
       "boot": false
     }
