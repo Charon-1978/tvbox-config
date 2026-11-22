@@ -1,0 +1,94 @@
+{
+  "sites": [
+    {
+      "key": "full_lovedan",
+      "name": "爱旦影视(全)",
+      "type": 1,
+      "api": "http://lovedan.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "full_huya",
+      "name": "虎牙资源(全)",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "full_hongniu",
+      "name": "红牛资源(全)",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "full_feifan",
+      "name": "非凡影视(全)",
+      "type": 1,
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "full_zy360",
+      "name": "360资源(全)",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "full_hhzy",
+      "name": "豪华资源(全)",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
+  ],
+
+  "lives": [
+    {
+      "name": "Guovin 直播",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+      "timeZone": "Asia/Shanghai"
+    },
+    {
+      "name": "vbskycn 直播",
+      "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+      "timeZone": "Asia/Shanghai"
+    }
+  ],
+
+  "parses": [],
+  "flags": [],
+  "headers": [
+    {
+      "host": "lovedan.net",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 Chrome/131.0.0.0 Mobile Safari/537.36"
+      }
+    }
+  ],
+  "doh": [
+    {
+      "name": "阿里DNS",
+      "url": "https://dns.alidns.com/dns-query"
+    },
+    {
+      "name": "腾讯DNS",
+      "url": "https://doh.pub/dns-query"
+    }
+  ]
+}
