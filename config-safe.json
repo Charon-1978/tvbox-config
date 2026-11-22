@@ -118,10 +118,10 @@
     }
   ],
 
-  "lives": [
+    "lives": [
     {
       "name": "Guovin 直播",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
       "timeZone": "Asia/Shanghai"
     },
@@ -132,7 +132,6 @@
       "timeZone": "Asia/Shanghai"
     }
   ],
-
   "parses": [],
   "flags": [],
   "headers": [
